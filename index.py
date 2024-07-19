@@ -123,14 +123,14 @@ player_name = input()
 cpu = "CPU"
 print("Hello, " + player_name + "!")
 
-invincible_mode = input('You want to play with invincible mode?') == "yes"
+invincible_mode = input('Do you want to play with invincible mode?') == "yes"
 
 if invincible_mode:
     print("Invincible mode actived")
 else:
     print("Invincible mode not actived")
 
-print("How many games you want to play?")
+print("How many games do you want to play?")
 
 games = int(input())
 player_points  = 0
